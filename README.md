@@ -53,10 +53,10 @@ The **Line Following Robot** uses two infrared (IR) sensors to detect a black li
 | Right Motor Control 2 (RM2) | Digital 11 |
 
 ### Schematic
-![Schematic](schematics/schematic.png)
+![Schematic](Line_Following_Robot_Schematic.png)
 
 ### Circuit Layout
-![Circuit](schematics/circuit.png)
+![Circuit](Line_Following_Robot_Circuit.png)
 
 ---
 
@@ -72,12 +72,12 @@ The **Line Following Robot** uses two infrared (IR) sensors to detect a black li
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/deep-chatterjee/line-following-robot.git
-   cd line-following-robot
+   git clone https://github.com/deep-chatterjee/Line-Following-Robot-using-Arduino.git
+   cd Line-Following-Robot-using-Arduino
    ```
 
 2. **Open the sketch**
-   - Open `code/Basic_Line_Following_Robot.ino` in the Arduino IDE
+   - Open `Line_Following_Robot.ino` in the Arduino IDE
 
 3. **Upload to your board**
    - Select your board: **Arduino UNO**
@@ -85,7 +85,7 @@ The **Line Following Robot** uses two infrared (IR) sensors to detect a black li
    - Click **Upload**
 
 4. **Assemble the circuit**
-   - Wire up the components following the schematic in `schematics/`
+   - Wire up the components following the schematic images in the repo
    - Power the motors with the 9V battery via the L293D
 
 ---
@@ -124,12 +124,11 @@ Read Left & Right IR Sensors
 ## 📁 Project Structure
 
 ```
-line-following-robot/
-├── code/
-│   └── Basic_Line_Following_Robot.ino   # Arduino sketch
-├── schematics/
-│   ├── schematic.png                    # Circuit schematic
-│   └── circuit.png                      # Breadboard circuit layout
+Line-Following-Robot-using-Arduino/
+├── Line_Following_Robot.ino          # Arduino sketch
+├── Line_Following_Robot_Schematic.png  # Circuit schematic
+├── Line_Following_Robot_Circuit.png    # Breadboard circuit layout
+├── LICENSE
 └── README.md
 ```
 
@@ -163,4 +162,4 @@ line-following-robot/
 
 ## 📄 License
 
-This project is licensed under the MIT License — see [LICENSE](LICENSE) for details.
+This project is licensed under the MIT License — see [LICENSE](https://github.com/deep-chatterjee/Line-Following-Robot-using-Arduino/blob/main/LICENSE) for details.
